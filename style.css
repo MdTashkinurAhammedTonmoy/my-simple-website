@@ -1,0 +1,91 @@
+
+/* box 1 */
+header {
+    height: 837px;
+    background-image: url(images/developer.png) , url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left ,bottom right;
+    background-color: #FFF8F3;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 200px;
+}
+#mary {
+    font-weight: 800px;
+    font-size: 45px;
+    color: #181818;
+}
+#mary span {
+    color: #FD6E0A;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    font-size: 20px;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#button-h {
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-right: 49px;
+}
+
+#button-i {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 2px solid #FD6E0A;
+}
+
+
+
+#hading-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+#hading-2 {
+    max-width: 570px;
+}
+
+#hading-2 h1{
+    font-size: 45px;
+    color: rgba(71, 71, 71, 1);
+}
+
+#hading-2 h2 {
+    font-size: 85px;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 1);
+}
+
+#hading-2 {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    font-weight: regular;
+    margin-bottom: 30px;
+}
