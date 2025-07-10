@@ -1,4 +1,7 @@
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 /* box 1 */
 header {
     height: 837px;
@@ -13,11 +16,13 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin:0px 200px;
+
 }
 #mary {
     font-weight: 800px;
     font-size: 45px;
     color: #181818;
+    margin-top: 50px;
 }
 #mary span {
     color: #FD6E0A;
@@ -27,6 +32,9 @@ nav a {
     color: rgba(71, 71, 71, 1);
     font-size: 20px;
 }
+#ig {
+    margin-top: 46px;
+}
 nav li{
     list-style: none;
     margin-right: 50px;
@@ -35,6 +43,7 @@ nav li{
 nav ul {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 #button-h {
@@ -75,17 +84,69 @@ nav ul {
 #hading-2 h1{
     font-size: 45px;
     color: rgba(71, 71, 71, 1);
+    
 }
 
 #hading-2 h2 {
     font-size: 85px;
     font-weight: bold;
     color: rgba(24, 24, 24, 1);
+    margin-bottom: 20px;
 }
 
-#hading-2 {
+#hading-2 p {
     font-size: 18px;
     color: rgba(117, 117, 117, 1);
     font-weight: regular;
     margin-bottom: 30px;
+}
+
+/* box-2 */
+
+main{
+     width: 1140px;
+    height: 550px; 
+    background-color:#FFF8F3 ;
+    margin: 130px auto ;
+    position: relative;
+    border-radius: 10px;
+}
+
+#main-4 {
+    display: flex;
+    justify-content: space-around;
+}
+.main-1 {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 827px;
+    height: 288px;
+    position: absolute;
+    margin: 131px 156px;
+    border: 1px solid ;
+}
+
+#main-3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 1);
+    margin-bottom: 30px;
+}
+
+#main-2 {
+    font-size: 18px;
+    color:#757575 ;
+    margin-bottom: 30px;
+    
+}
+
+#main-5 p {
+    font-size: 18px;
+    color:#757575 ;
+}
+
+#main-5 h3 {
+    font-size:20px ;
+    font-weight: bold;
+    color: #474747;
 }
